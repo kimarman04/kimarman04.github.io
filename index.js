@@ -16,6 +16,24 @@ function clickLike2(){
 }
 btnLike2.addEventListener("click",clickLike2)
 
+const btndisLike1 = document.getElementById("btndisLike1")
+const countdisLike1 = document.getElementById("countdisLike1")
+
+function clickdisLike1(){
+  let totalLikes = parseInt(countdisLike1.value) + 1
+  countdisLike1.textContent = totaldisLikes.toString()
+}
+btndisLike1.addEventListener("click",clickdisLike1)
+
+const btndisLike2 = document.getElementById("btndisLike2")
+const countdisLike2 = document.getElementById("countdisLike2")
+
+function clickdisLike2(){
+  let totaldisLikes = parseInt(countdisLike2.value) + 1
+  countdisLike2.textContent = totaldisLikes.toString()
+}
+btndisLike2.addEventListener("click",clickdisLike2)
+
 const submit = document.getElementById("submit")
 const comment = document.getElementById("comment")
 const commentbox = document.getElementById("commentbox")
